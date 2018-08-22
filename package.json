@@ -14,7 +14,6 @@
     "test": "npm run test:unit && npm run test:integration && npm run test:e2e",
     "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit",
     "test:e2e": "node test/run-e2e-test.js",
-    "e2etest": "testcafe puppeteer:no_sandbox node test/run-e2e-test.js--reporter html",
     "test:e2e:dev": "node test/run-e2e-test.js --dev",
     "test:integration": "jest test/integration",
     "test:integration:watch": "jest test/integration --watch",
